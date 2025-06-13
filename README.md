@@ -1,10 +1,23 @@
-| A (Did action) | E (Evidence exists) | Assumption (They are a killer?) | Can we prove?                    | Is Evidence Possible?                       | Conclusion (Judged as...) | Outcome Correct?      | Notes                                                           |
-| -------------- | ------------------- | ------------------------------- | -------------------------------- | ------------------------------------------- | ------------------------- | --------------------- | --------------------------------------------------------------- |
-| True           | True                | True                            | ✅ Yes — evidence supports action | ✅ Yes — action occurred                     | Judged as guilty          | ✅ Correct             | Ideal — action happened, evidence found, assumption correct.    |
-| True           | True                | False                           | ✅ Yes — evidence supports action | ✅ Yes — action occurred                     | Judged as guilty          | ✅ Correct             | Evidence exists, so judged guilty despite incorrect assumption. |
-| True           | False               | True                            | ❌ No — evidence lacking          | ✅ Yes — action occurred                     | Judged as guilty          | ✅ Correct (but risky) | Judged guilty without evidence — outcome right, process flawed. |
-| True           | False               | False                           | ❌ No — evidence lacking          | ✅ Yes — action occurred                     | Judged as innocent        | ❌ Incorrect           | Action occurred, but cannot be confirmed.                       |
-| False          | True                | True                            | ✅ Yes — but falsely attributed   | ❌ No — no action to generate valid evidence | Judged as guilty          | ❌ Incorrect           | False positive — mistaken or planted evidence.                  |
-| False          | True                | False                           | ✅ Yes — but falsely attributed   | ❌ No — no action to generate valid evidence | Judged as guilty          | ❌ Incorrect           | No action, so no valid evidence — judgment incorrect.           |
-| False          | False               | True                            | ❌ No — evidence lacking          | ❌ No — no action to generate valid evidence | Judged as guilty          | ❌ Incorrect           | Core danger: guilt assumed without action or evidence.          |
-| False          | False               | False                           | ❌ No — evidence lacking          | ❌ No — no action to generate valid evidence | Judged as innocent        | ✅ Correct             | Correct assumption, no action, no evidence — just outcome.      |
+Evidence exists if and only if the action occurred.
+
+This is the logical biconditional:
+
+𝐸
+⇔
+𝐴
+E⇔A
+🧠 Interpretation:
+If someone did kill → evidence must exist
+
+If someone did not kill → evidence cannot exist
+
+Therefore, evidence is a perfect reflection of whether the action occurred (no false positives or false negatives)
+
+
+
+| A | E | K | Can we Prove?                 | Conclusion      | Correct? | Notes                                                            |
+| - | - | - | ----------------------------- | --------------- | -------- | ---------------------------------------------------------------- |
+| 1 | 1 | 1 | ✅ Yes — evidence confirms act | Judged guilty   | ✅ Yes    | Ideal case. Action occurred, evidence found, correct assumption. |
+| 1 | 1 | 0 | ✅ Yes — evidence confirms act | Judged guilty   | ✅ Yes    | Evidence overrides false assumption — judgment still correct.    |
+| 0 | 0 | 1 | ❌ No — no evidence            | Judged guilty   | ❌ No     | Wrong assumption. No action, no evidence — unfair prosecution.   |
+| 0 | 0 | 0 | ❌ No — no evidence            | Judged innocent | ✅ Yes    | No action, no evidence, and assumed innocent — perfect judgment. |
