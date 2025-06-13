@@ -7,7 +7,7 @@ This is the logical biconditional:
 𝐴
 E⇔A
 🧠 Interpretation:
-If someone did kill → evidence must exist
+If someone did kill → evidence must exist (at some point even when it is destroyed; let say A is the event of the murder and B is the evidence of A. C is the event of destorying B, D as the evidence of C must exist)
 
 If someone did not kill → evidence cannot exist
 
