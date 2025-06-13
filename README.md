@@ -12,19 +12,13 @@ Let:
 A: Action (e.g. the murder) occurred
 
 𝐵
-B: Direct evidence of 
-𝐴
-A
+B: Direct evidence of 𝐴
 
 𝐶
-C: Destruction of 
-𝐵
-B
+C: Destruction of 𝐵
 
 𝐷
-D: Evidence of 
-𝐶
-C
+D: Evidence of C
 
 So:
 
