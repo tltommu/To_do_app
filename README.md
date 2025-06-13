@@ -6,10 +6,54 @@ This is the logical biconditional:
 ⇔
 𝐴
 E⇔A
-🧠 Interpretation:
-If someone did kill → evidence must exist (at some point even when it is destroyed; let say A is the event of the murder and B is the evidence of A. C is the event of destorying B, D as the evidence of C must exist)
+Let:
 
-If someone did not kill → evidence cannot exist
+𝐴
+A: Action (e.g. the murder) occurred
+
+𝐵
+B: Direct evidence of 
+𝐴
+A
+
+𝐶
+C: Destruction of 
+𝐵
+B
+
+𝐷
+D: Evidence of 
+𝐶
+C
+
+So:
+
+𝐴
+⇒
+𝐵
+𝐵
+⇒
+¬
+𝐶
+∨
+𝐷
+∴
+𝐴
+⇒
+(
+𝐵
+∨
+𝐷
+)
+A⇒B
+B⇒¬C∨D
+∴A⇒(B∨D)
+Which means:
+If an action occurred, there will always exist some observable consequence — either direct evidence 
+𝐵
+B, or evidence of tampering 
+𝐷
+D.
 
 Therefore, evidence is a perfect reflection of whether the action occurred (no false positives or false negatives)
 
