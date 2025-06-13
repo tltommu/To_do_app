@@ -35,52 +35,26 @@ Symbol	Description
 | $C$    | Event of **concealment/destruction** of evidence                                 |
 | $D$    | **Meta-evidence** — consequences of $C$, proving that evidence was tampered with |
 
+A⇒E
+E⇒¬C∨D
+∴A⇒(E∨D)
 
 
-This is the logical biconditional:
+## 💡 General Logical Principle
 
-𝐸
+𝐴
 ⇔
-𝐴
-E⇔A
-Let:
+𝐸
+A⇔E
+​
+ 
+But even more generally:
 
-𝐴: Action (e.g. the murder) occurred
-
-𝐵: Direct evidence of 𝐴
-
-𝐶: Destruction of 𝐵
-
-𝐷: Evidence of C
-
-So:
-
-𝐴
-⇒
-𝐵
-𝐵
-⇒
-¬
-𝐶
-∨
-𝐷
-∴
-𝐴
-⇒
-(
-𝐵
-∨
-𝐷
-)
-A⇒B
-B⇒¬C∨D
-∴A⇒(B∨D)
-Which means:
-If an action occurred, there will always exist some observable consequence — either direct evidence 
-𝐵, or evidence of tampering 
-𝐷.
-
-Therefore, evidence is a perfect reflection of whether the action occurred (no false positives or false negatives)
+Every causal event leaves a trace, either directly or indirectly.
+Every causal event leaves a trace, either directly or indirectly.
+​
+ 
+This is a form of the "Principle of Sufficient Causality" — every event has effects, and those effects can, in principle, be detected.
 
 
 
