@@ -8,17 +8,13 @@ This is the logical biconditional:
 E⇔A
 Let:
 
-𝐴
-A: Action (e.g. the murder) occurred
+𝐴: Action (e.g. the murder) occurred
 
-𝐵
-B: Direct evidence of 𝐴
+𝐵: Direct evidence of 𝐴
 
-𝐶
-C: Destruction of 𝐵
+𝐶: Destruction of 𝐵
 
-𝐷
-D: Evidence of C
+𝐷: Evidence of C
 
 So:
 
@@ -44,10 +40,8 @@ B⇒¬C∨D
 ∴A⇒(B∨D)
 Which means:
 If an action occurred, there will always exist some observable consequence — either direct evidence 
-𝐵
-B, or evidence of tampering 
-𝐷
-D.
+𝐵, or evidence of tampering 
+𝐷.
 
 Therefore, evidence is a perfect reflection of whether the action occurred (no false positives or false negatives)
 
